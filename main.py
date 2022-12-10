@@ -31,7 +31,7 @@ while True:
 
             todos = functions.get_todos()
 
-            new_todo = input("Enter new todo: ")
+            new_todo = input("Enter a new todo: ")
             todos[number] = new_todo + '\n'
 
             functions.write_todos(todos)
